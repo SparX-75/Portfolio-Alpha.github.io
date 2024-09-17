@@ -1,0 +1,321 @@
+/*
+Full Name: Devansh Shah (041132970)
+File Name: A1_design.css
+Date: 5/07/2024 
+Subject: CST8285
+Description: This is the css stylesheet which adds the design parts to the to my Portfolio Website(Assignment 1)
+*/
+
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    background: url("../Images/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Styling for sidebar */
+.sidebar {
+    width: 220px;
+    height: 300px;
+    padding: 20px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    border-radius: 20px;
+}
+
+/* Styling for sidebar heading */
+.sidebar h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background: #7d7c79;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for sidebar links */
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    background: #1f1f1f;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect for sidebar links */
+.sidebar a:hover {
+    background: #ffcc00;
+    color: #1f1f1f;
+}
+
+/* Styling for container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Styling for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for custom header */
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for first section */
+.first-section {
+    flex: 1;
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for image box */
+.devansh-image-box {
+    flex: 0 0 200px;
+    text-align: center;
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for images */
+.devansh-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styling for main heading */
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 2.5em;
+    color: #ffcc00;
+    margin: 0;
+}
+
+/* Styling for various sections */
+.description, .info, .career-objective, .experience, .skills, .education, .projects, .contact-form {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for section headings */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #ffcc00;
+    margin-top: 0;
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for list items */
+ul li {
+    background: #232323;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+/* Styling for skills section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styling for education program */
+.education #program {
+    font-weight: bold;
+}
+
+ /* Styling Golden colored underlined Links */
+.gold-link {
+    color: #ffcc00;
+    text-decoration: underline; 
+}
+
+/* Styling for projects */
+.project {
+    border: 1px solid #ffcc00;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px 0;
+    background: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Styling for project images */
+.project img {
+    border: 2px solid #cfcfcf;
+    width: 100%;
+    border-radius: 10px;
+    border-color: azure;
+}
+
+/* Styling for project counter */
+.counter {
+    color: #1f1f1f;
+    font-size: x-large;
+}
+
+/* Styling for contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for form labels */
+.contact-form label {
+    margin-bottom: 5px;
+    color: #ffcc00;
+}
+
+/* Styling for form inputs and textarea */
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #232323;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Placeholder styling for inputs and textarea */
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #999999;
+}
+
+/* Styling for form submit button */
+.contact-form button {
+    background-color: #ffcc00;
+    border: none;
+    color: #1f1f1f;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for form submit button */
+.contact-form button:hover {
+    background-color: #e6b800;
+}
+
+/* Styling for navigation */
+.navigation {
+    text-align: center;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #ffcc00;
+    border: none;
+    color: #1f1f1f;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Initially hide projects */
+.project {
+    display: none;
+}
+
+/* Styling the Footer Element */
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    padding: 10px 20px;
+    background: none;
+    color: #000000;
+    font-size: 14px;
+    width: auto;
+    border: none; 
+    box-shadow: none; 
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        padding: 10px;
+    }
+    
+    .sidebar {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .project {
+        padding: 20px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 8px;
+    }
+
+    .contact-form button {
+        padding: 8px 15px;
+    }
+}
